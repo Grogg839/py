@@ -10,6 +10,10 @@ I'm using it to keep track of the things I learn, the books and courses I work t
 
 Working through *Automate the Boring Stuff with Python* (ATBS), completing the examples and exercises as I go.
 
+## Environment
+
+Python 3.13.15
+
 ## What's Next
 
 This repository will grow as I continue learning Python.
