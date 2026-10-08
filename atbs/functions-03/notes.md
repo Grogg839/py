@@ -25,3 +25,13 @@ print(spam(12))
 print(spam(0))
 print(spam(1))
 '''
+
+## Summary
+
+- Functions can be thought of as black boxes in your code
+
+- Variables that existin their own local scope cannot affect global scope variables
+
+- They have inputs in the forms of parameters, and give some chosen output
+
+- 'try' and 'except' statements allow code to still run when an error is detected, making your programs more resilient to common error cases.

@@ -1,24 +1,26 @@
+# Chapter 2 Practice Questions
+
 1. True and False 
 
 2. And, or, not
 
-3. True and True = True
-   True and False = False 
-   False and False = False 
+3. - True and True = True
+   - True and False = False 
+   - False and False = False 
 
-   True or True = True 
-   True or False = False 
-   False or False = False
+   - True or True = True 
+   - True or False = False 
+   - False or False = False
 
-   Not True = False 
-   Not False = True
+   - Not True = False 
+   - Not False = True
 
-4. False 
-   True 
-   True 
-   False 
-   False 
-   True 
+4. - False 
+   - True 
+   - True 
+   - False 
+   - False 
+   - True 
 
 5. >, <, ==, >=, <=, !=
 

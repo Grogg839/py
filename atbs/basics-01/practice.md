@@ -1,10 +1,6 @@
-1. * is an operator
-'hello' is a value 
--88.8 is a value 
-- is an operator 
-/ is an operator 
-+ is an operator 
-5 is a value 
+# Chapter 1 Practice Questions 
+
+1. * is an operator, 'hello' is a value , -88.8 is a value, - is an operator , / is an operator, + is an operator, 5 is a value 
 
 2. spam is a variable and 'spam' is a string. 
 
