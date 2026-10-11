@@ -8,9 +8,14 @@ It begins and ends with a closing square bracket, [].
 
 Values inside the list are called *items*, which must be seperated with commas. 
 
-If you had some list 'spam = ['cat', 'dog']', the Python code spam[0] would evaluate to cat, and spam[1] to dog. The integars 0 and 1 here are the lists *index*.
+```python3
+spam = ['cat', 'dog', 'bird']
+spam[0]    # Returns cat
+spam[1]    # Returns dog
+```
+Notice how in the code above, the first item has an index of 0.
 
-Lists can also contain other lists, indented with more square brackets.
+Lists can contain other lists, indented with more square brackets.
 
 You can also have negative indexes:
 
@@ -25,7 +30,7 @@ print('The ' spam[-1] + ' is afraid of the ' + spam[-3] + '.')
 
 A slice can get several values from a list, in the form of a new list.
 
-'spam[2]' is a list with an index, 'spam[1:4]' is a list with a slice. This will print a list from element with index 1 to the 4th element (not index 4!)
+'spam[2]' is a list with an index, 'spam[1:4]' is a list with a slice. This will print a list from the element with index 1 to the 4th element (not index 4!)
 
 You can get a list's length with 'len()'.
 
