@@ -39,7 +39,7 @@ Flow control statements often start with a 'condition', and all are followed by 
 
 if statement clauses will execute if the statemen'ts condition is True. The cluase is skipped if the condition is false.
 
-'''python
+'''python3
 if name == 'Alice':
     print('Hi, Alice.')
 '''
@@ -49,7 +49,7 @@ The if statement can also be followed by an else statement. The else clause is e
 The elif statement that always follows another if or elif statement is a way of checking one of many possible clauses to execute. 
 It provides another condition that is checked only if any of the previous conditions were False.
 
-'''python
+'''python3
 if name == 'Alice':
     print('Hi, Alice.')
 elif age < 12:

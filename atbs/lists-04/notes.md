@@ -14,7 +14,7 @@ Lists can also contain other lists, indented with more square brackets.
 
 You can also have negative indexes:
 
-'''python
+'''python3
 spam = ['cat', 'bat', 'rat', 'elephant']
 spam[-1]	# Returns elephant
 spam [-3]	# Returns bat
