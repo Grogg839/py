@@ -13,18 +13,18 @@ Summary of the scope section: Variables in a local scope and variables in the gl
 
 If you want a program to carry on running, even with an error so it doesn't just crash, you can use 'try' and 'except' statements:
 
-'''python3
-def spam(divideBy)
+```python3
+def spam(divideBy):
 	try:
 		return 42 / divideBy
 	except ZeroDivisionError:
-		print('Error: INvalid argument.')
+		print('Error: Invalid argument.')
 
 print(spam(2))
 print(spam(12))
 print(spam(0))
 print(spam(1))
-'''
+```
 
 ## Summary
 

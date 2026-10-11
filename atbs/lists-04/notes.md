@@ -14,12 +14,12 @@ Lists can also contain other lists, indented with more square brackets.
 
 You can also have negative indexes:
 
-'''python3
+```python3
 spam = ['cat', 'bat', 'rat', 'elephant']
 spam[-1]	# Returns elephant
 spam [-3]	# Returns bat
-'The ' spam[-1] + ' is afraid of the ' + spam[-3] + '.'
-'''
+print('The ' spam[-1] + ' is afraid of the ' + spam[-3] + '.')
+```
 
 ## Getting a sublist with Slices
 
