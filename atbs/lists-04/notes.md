@@ -2,11 +2,11 @@
 
 ## The List Data Type
 
-Definition: A *list* is a value that contains multiple values in an ordered sequence.
+Definition: A **list** is a value that contains multiple values in an ordered sequence.
 
 It begins and ends with a closing square bracket, [].
 
-Values inside the list are called *items*, which must be seperated with commas. 
+Values inside the list are called **items**, which must be seperated with commas. 
 
 ```python3
 spam = ['cat', 'dog', 'bird']
@@ -30,7 +30,14 @@ print('The ' spam[-1] + ' is afraid of the ' + spam[-3] + '.')
 
 A slice can get several values from a list, in the form of a new list.
 
-'spam[2]' is a list with an index, 'spam[1:4]' is a list with a slice. This will print a list from the element with index 1 to the 4th element (not index 4!)
+The syntax is just list[start:stop], and the index start is **included**...the index end is **excluded**
+
+```python3
+numbers = [10, 20, 30, 40, 50]
+print(numbers[1:4])
+
+# Output will be [20, 30, 40]
+```
 
 You can get a list's length with 'len()'.
 
