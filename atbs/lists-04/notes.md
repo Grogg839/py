@@ -26,7 +26,7 @@ spam [-3]	# Returns bat
 print('The ' spam[-1] + ' is afraid of the ' + spam[-3] + '.')
 ```
 
-## Getting a sublist with Slices
+### Getting a sublist with Slices
 
 A slice can get several values from a list, in the form of a new list.
 
@@ -46,3 +46,42 @@ You can also swap values in a list with indexes: i.e specify 'spam[1] = spam[2]'
 You can remove a value from lists with 'del()'
 
 ## Working with Lists
+
+A common Python technique is to use `range(len(someList))` with a for loop to iterate over the indexes of a list.
+
+### The *in* and *not* Operators
+
+You can see if a value is or isn't in a list with the `in` and `not` operators.
+
+```python3
+'howdy' in ['hello', 'hi', 'howdy', 'heyas'] # returns `True`
+```
+
+### The Multiple Assignment Trick
+
+This is a shortcut that lets you assign multiple variables with the values in a list in one line of code
+
+```python3
+cat = ['fat', 'black', 'loud']
+size, color, disposition = cat
+```
+
+## Augmented Assignment Operators
+
+Instead of writing code like: 
+
+```python3
+spam = 42
+spam = spam + 1
+spam
+``` 
+
+You can use the augmented assignment operator += to do the same thing:
+
+```python3
+spam = 42
+spam += 1
+spam
+```
+
+NEED TO DRAW OUT TABLE 4-1 IN MD FORMAT
